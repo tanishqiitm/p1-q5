@@ -6,9 +6,9 @@ from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, ContextTypes, filters
 
 # --- fill these in with your own values ---
-TELEGRAM_BOT_TOKEN = "PASTE_YOUR_BOTFATHER_TOKEN_HERE"
-AIPIPE_TOKEN = "PASTE_YOUR_AIPIPE_TOKEN_HERE"
-LOG_URL = "PASTE_YOUR_PUBLIC_LOG_URL_HERE"  # see Step 5 — where run.jsonl will be hosted
+TELEGRAM_BOT_TOKEN = "8840013019:AAF4zvCDmOJvHTAD9UnlarYw-yuDYWTjFEo"
+AIPIPE_TOKEN = "eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6IjIyZjMwMDMxMzlAZHMuc3R1ZHkuaWl0bS5hYy5pbiIsImlhdCI6MTc4NTM5NTM0OSwiaXNzIjoiaHR0cHM6Ly9haXBpcGUub3JnIiwiYXVkIjoiYWlwaXBlLWFwaSIsImV4cCI6MTc4NjAwMDE0OX0.00D-HnJTDLX4MdrF0Kqtd1D5XB1b9y3u5BfH_ePbehQ"
+LOG_URL = "https://github.com/tanishqiitm/p1-q5/blob/main/run.jsonl"  # see Step 5 — where run.jsonl will be hosted
 # -------------------------------------------
 
 client = OpenAI(base_url="https://aipipe.org/openai/v1", api_key=AIPIPE_TOKEN)
